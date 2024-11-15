@@ -10,10 +10,6 @@ class DetailsScreen extends StatelessWidget {
     return Scaffold(
       extendBodyBehindAppBar: true,
       appBar: AppBar(
-        title: Text(
-          'quadB',
-          style: TextStyle(color: Colors.red, fontSize: 24, fontWeight: FontWeight.bold),
-        ),
         centerTitle: true,
         backgroundColor: Colors.transparent,
         elevation: 0,
